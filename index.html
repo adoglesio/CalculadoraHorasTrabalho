@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horas de Trabalho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1>Calculadora de Horas de Trabalho</h1>
+
+        <label for="horasPorSemana">Horas por semana:</label>
+        <input type="number" id="horasPorSemana" required><br><br>
+
+        <label for="dataInicio">Data de início:</label>
+        <input type="date" id="dataInicio" required><br><br>
+
+        <label for="dataFim">Data de fim:</label>
+        <input type="date" id="dataFim" required><br><br>
+
+        <button onclick="calcularHoras()">Calcular</button>
+
+        <h2 id="resultado"></h2>
+
+        <script src="script.js"></script>
+    </div>
+
+    <footer>
+        <a href="https://www.adoglesiog.com.br" target="_blank" rel="noopener noreferrer">
+            &copy; 2024  www.adoglesiog.com.br
+        </a>
+    </footer>
+
+</body>
+
+</html>
